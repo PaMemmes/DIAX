@@ -1,0 +1,24 @@
+{
+    "dis_layers":{
+        "first_layer":128,
+        "second_layer":128,
+        "third_layer":128,
+        "fourth_layer":128
+    },
+    "gen_layers":{
+        "first_layer":128,
+        "second_layer":256,
+        "third_layer":256,
+        "fourth_layer":512
+    },
+    "dis_activation":"LeakyReLU",
+    "gen_activation":"LeakyReLU",
+
+    "loss":"binary_crossentropy",
+    "optimizer":"Adam",
+    "epochs":50,
+    "batch_size":512,
+    "momentum":0.5,
+    "learning_rate":0.0002
+
+}
